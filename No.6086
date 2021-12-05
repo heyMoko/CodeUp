@@ -1,0 +1,12 @@
+a = int(input())
+
+t = 0
+s = 0
+
+while t<a:
+    t += 1
+    s += t
+    if s>=a:
+        break
+    
+print(s)
